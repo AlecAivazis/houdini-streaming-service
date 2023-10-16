@@ -47,14 +47,14 @@ dependencies:
     specifier: ^3.9.1
     version: 3.9.1(graphql@15.8.0)
   houdini:
-    specifier: 0.0.0-20231016104238
-    version: 0.0.0-20231016104238
+    specifier: 0.0.0-20231016105858
+    version: 0.0.0-20231016105858
   houdini-adapter-auto:
-    specifier: 0.0.0-20231016104238
-    version: 0.0.0-20231016104238
+    specifier: 0.0.0-20231016105858
+    version: 0.0.0-20231016105858
   houdini-react:
-    specifier: 0.0.0-20231016104238
-    version: 0.0.0-20231016104238
+    specifier: 0.0.0-20231016105858
+    version: 0.0.0-20231016105858
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2074,21 +2074,21 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /houdini-adapter-auto@0.0.0-20231016104238:
-    resolution: {integrity: sha512-cNdSWJGssGlJCOmnTxmDkVQZI55hjRiJnuL8fCG8m5w4f/2PZofXo4qsN+QiKFBBGxGMIK9CtfVCSpbkn9eZ0w==}
+  /houdini-adapter-auto@0.0.0-20231016105858:
+    resolution: {integrity: sha512-34N8OTJzKB4FKWBtD3lL5ibday2l/mxqtMPLLPvpJ3kF8D/0RqdXf3I0bdeJFPSXbjlWJpc5eyMmMY1gYUJXgA==}
     dependencies:
-      houdini: 0.0.0-20231016104238
+      houdini: 0.0.0-20231016105858
       import-meta-resolve: 3.0.0
     dev: false
 
   /houdini-adapter-node@0.0.0-20231014043931:
     resolution: {integrity: sha512-/1gG5A3eBHGj7SogmROsagwkdeb++HBXaiDdeYV1wde6qyGGXlBZrtZoNPQ8uZK7LYq6HoGOfBy6JXj/A2bP/Q==}
     dependencies:
-      houdini: 0.0.0-20231016104238
+      houdini: 0.0.0-20231016105858
     dev: true
 
-  /houdini-react@0.0.0-20231016104238:
-    resolution: {integrity: sha512-3OhZGxU2C5NUQu2Y1DXBO5M8vwNt4b/XfZySkMbjXFfQt3TGXC8Bg0pt6SzJZ0cKbGrE9JEDSjFMdrXmbXVkzw==}
+  /houdini-react@0.0.0-20231016105858:
+    resolution: {integrity: sha512-TRZdvKFEEdw7/K46vfRA4i2meBPIovYRLy9NH/tRlReO32bAjycsYFULWFcVjnNSZzoFH9pQgOV9OXqqpMszsg==}
     dependencies:
       '@babel/parser': 7.23.0
       '@babel/types': 7.23.0
@@ -2100,7 +2100,7 @@ packages:
       express: 4.18.2
       graphql: 15.8.0
       graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 0.0.0-20231016104238
+      houdini: 0.0.0-20231016105858
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-streaming-compat: 0.3.18(react-dom@18.2.0)(react@18.2.0)
@@ -2111,8 +2111,8 @@ packages:
       - supports-color
     dev: false
 
-  /houdini@0.0.0-20231016104238:
-    resolution: {integrity: sha512-gmaFuL/xI4BCfSjhxSpgXYNTv0iUSIlygdfcmbN2wLai92KqOUoVH6E4bRi41rA/x3lxTePPIxlekUrgj2aK7A==}
+  /houdini@0.0.0-20231016105858:
+    resolution: {integrity: sha512-Tv0MWlQh4nulgS2A3XDOPzu2e3+cIdbe5mmY9C1GQI9hMiK2MqULRc2Xswgo8Rz5hGaU/Lq/4IK4eHGCm+pqjA==}
     hasBin: true
     dependencies:
       '@babel/parser': 7.23.0
