@@ -19,7 +19,7 @@ type Query {
   show(id: ID!): Show
 
   genres(
-    first: Int
+    first:  Int
     after: Cursor
     last: Int
     before: Cursor
