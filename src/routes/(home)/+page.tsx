@@ -15,7 +15,7 @@ export default function ({ ShowList }: PageProps) {
           </h2>
           <div className="flex flex-row gap-1">
             {genre.shows.edges.map(({ node }) => {
-              if (isPending(node)) {
+              if (isPending(node.id)) {
                 return (
                   <a
                     href="#"

@@ -1,11 +1,11 @@
-query ShowList {
-  genres(delay: 2000) @loading {
+query ShowList @loading {
+  genres(delay: 2000) {
     edges @loading(count: 10) {
-      node @loading {
-        name @loading
-        shows @loading {
+      node {
+        name
+        shows {
           edges @loading(count: 5) {
-            node @loading {
+            node {
               id
               name
               billboard {

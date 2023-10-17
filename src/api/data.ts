@@ -72,22 +72,6 @@ export const shows: Record<number, Show> = [
     genres: [genres[10], genres[2]],
   },
   {
-    id: 3,
-    name: "The Office",
-    poster: {
-      source:
-        "https://m.media-amazon.com/images/I/81R7QZV5P1L._AC_UF894,1000_QL80_.jpg",
-    },
-    billboard: {
-      source:
-        "https://yt3.ggpht.com/pPPruumUXn9NkthEb5sZ8Vu_8YBJjNdXTiFNwwYcDZktOZsyFmY93jNqChifWjxRTQeYpwPveTc=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj",
-    },
-    description:
-      "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
-    seasons: [9, 10, 11, 12, 13, 14, 15, 16, 17],
-    genres: [genres[1]],
-  },
-  {
     id: 4,
     name: "Doc Martin",
     poster: {
