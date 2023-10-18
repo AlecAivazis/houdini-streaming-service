@@ -10,7 +10,9 @@ export default function App({ children }: { children: React.ReactNode }) {
         <title>My App</title>
       </head>
       <body>
-        <ErrorBoundary>{children}</ErrorBoundary>
+        <ErrorBoundary>
+          <React.StrictMode>{children}</React.StrictMode>
+        </ErrorBoundary>
       </body>
     </html>
   );
