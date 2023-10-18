@@ -30,6 +30,10 @@
 		"typescript": "^4.9.0",
 		"vite": "^4.3.0"
 	},
+	"resolutions": {
+		"react": "18.3.0-canary-09fbee89d-20231013",
+		"react-dom": "18.3.0-canary-09fbee89d-20231013"
+	},
 	"devDependencies": {
 		"@types/fs-extra": "^11.0.2",
 		"houdini-adapter-node": "0.0.0-20231014043931",
