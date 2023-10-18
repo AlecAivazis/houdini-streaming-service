@@ -30,8 +30,8 @@
 		"houdini-adapter-auto": "0.0.0-20231016110334",
 		"houdini-adapter-cloudflare": "0.0.0-20231016110334",
 		"houdini-react": "0.0.0-20231018041450",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
+		"react": "18.3.0-canary-a41957507-20231017",
+		"react-dom": "18.3.0-canary-a41957507-20231017",
 		"typescript": "^4.9.0",
 		"vite": "^4.3.0"
 	},
