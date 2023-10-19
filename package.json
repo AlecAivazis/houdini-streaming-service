@@ -21,18 +21,18 @@
 		"fs-extra": "^11.1.1",
 		"graphql": "15.8.0",
 		"graphql-yoga": "^3.9.1",
-		"houdini": "0.0.0-20231018233228",
+		"houdini": "0.0.0-20231019014155",
 		"houdini-adapter-auto": "0.0.0-20231018041450",
 		"houdini-adapter-cloudflare": "0.0.0-20231018041450",
-		"houdini-react": "0.0.0-20231018233228",
+		"houdini-react": "0.0.0-20231019014155",
 		"react": "18.3.0-canary-09fbee89d-20231013",
 		"react-dom": "18.3.0-canary-09fbee89d-20231013",
 		"typescript": "^4.9.0",
 		"vite": "^4.3.0"
 	},
 	"resolutions": {
-		"react": "18.3.0-canary-09fbee89d-20231013",
-		"react-dom": "18.3.0-canary-09fbee89d-20231013"
+		"react": "18.3.0-canary-9617d39ec-20231018",
+		"react-dom": "18.3.0-canary-9617d39ec-20231018"
 	},
 	"devDependencies": {
 		"@types/fs-extra": "^11.0.2",
