@@ -40,17 +40,17 @@ dependencies:
     specifier: ^3.9.1
     version: 3.9.1(graphql@15.8.0)
   houdini:
-    specifier: 0.0.0-20231019174534
-    version: 0.0.0-20231019174534
+    specifier: latest
+    version: 1.2.32
   houdini-adapter-auto:
-    specifier: 0.0.0-20231019074040
-    version: 0.0.0-20231019074040
+    specifier: latest
+    version: 1.2.32
   houdini-adapter-cloudflare:
-    specifier: 0.0.0-20231019074040
-    version: 0.0.0-20231019074040
+    specifier: latest
+    version: 1.2.32
   houdini-react:
-    specifier: 0.0.0-20231019174534
-    version: 0.0.0-20231019174534
+    specifier: latest
+    version: 1.2.32
   react:
     specifier: 18.3.0-canary-9617d39ec-20231018
     version: 18.3.0-canary-9617d39ec-20231018
@@ -736,12 +736,20 @@ packages:
   /@kitql/helper@0.5.0:
     resolution: {integrity: sha512-qTDsv8qmbvSyZLb75hE9N4AnmZHtCi8JxgHYAj4dbgViEjs6HVYJKqHabGR7rZCAVQj7LwWu+cTfh52QhlNMcg==}
     deprecated: It was renamed to @kitql/helpers, should be better!
+    dev: true
 
   /@kitql/helper@0.6.1:
     resolution: {integrity: sha512-jHl1YHItwOI8Z0h4kvx5LaJjcjY4zbmgSZVajWaGanCmbBKYphVP3UoNHDhs5944Ar7fJ/L7MNSdIINBhurIOA==}
     deprecated: It was renamed to @kitql/helpers, should be better!
     dependencies:
       safe-stable-stringify: 2.4.3
+    dev: true
+
+  /@kitql/helpers@0.8.2:
+    resolution: {integrity: sha512-+fny1XOuOWOEp8K3GqQqCSOCki+Kr5gMnl7Majzjs1iFlyvIvwYRv8x3sqNyP77yrUTQbiY5q/BTNav1Yl4LKg==}
+    dependencies:
+      esm-env: 1.0.0
+    dev: false
 
   /@peculiar/asn1-schema@2.3.6:
     resolution: {integrity: sha512-izNRxPoaeJeg/AyH8hER6s+H7p4itk+03QCa4sbxI3lNdseQYCuxzgsuNK8bTXChtLTjpJz6NmXKA73qLa3rCA==}
@@ -1328,6 +1336,10 @@ packages:
     engines: {node: '>=0.8.0'}
     dev: false
 
+  /esm-env@1.0.0:
+    resolution: {integrity: sha512-Cf6VksWPsTuW01vU9Mk/3vRue91Zevka5SjyNf3nEpokFRuqt/KjUQoGAwq9qMmhpLTHmXzSIrFRw8zxWzmFBA==}
+    dev: false
+
   /esprima@4.0.1:
     resolution: {integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==}
     engines: {node: '>=4'}
@@ -1622,17 +1634,17 @@ packages:
     resolution: {integrity: sha512-KHzmSFx1KwyMPw0kXeeUD752q/Kfbzhy6dAZrjXV9kAIXGqzGvv8vhkUqj+2MGZldTo0IBpw6v7iWE7uxsvH0w==}
     dev: false
 
-  /houdini-adapter-auto@0.0.0-20231019074040:
-    resolution: {integrity: sha512-6FG4AFa8mE4t6fKpiHGD3DLKtbAVjPpUmsAvsI/pqKqRGlDlX/lxbowx81R3YAf//5hVzJJCEnHJ2TdWkqnQLQ==}
+  /houdini-adapter-auto@1.2.32:
+    resolution: {integrity: sha512-2eet0BRM8Bz4qfXdPUKbn0iQ20LVEf/RTOwiPR2N2VTcZ5zofdwzem8KZbyX7ZC7X3moC6geRWWQL1fr8+aaNw==}
     dependencies:
-      houdini: 0.0.0-20231019174534
+      houdini: 1.2.32
       import-meta-resolve: 3.0.0
     dev: false
 
-  /houdini-adapter-cloudflare@0.0.0-20231019074040:
-    resolution: {integrity: sha512-RchEUphMabxlWRRYuuz1AgBxLnED1aICzEieFl0ixJLTvCvu+r9e4Jt87AdIeZSyEXmKSir9VCN9dpQEuFrHUQ==}
+  /houdini-adapter-cloudflare@1.2.32:
+    resolution: {integrity: sha512-3QgoIzM7bIOOsj5xCaVYJe52Xr6jkwsqf8CIzJzNByj8dt45U8wiq+DnAAL686teZv24Q6g5HjtwGwrVwFTMPg==}
     dependencies:
-      houdini: 0.0.0-20231019174534
+      houdini: 1.2.32
     dev: false
 
   /houdini-adapter-node@0.0.0-20231014043931:
@@ -1641,8 +1653,8 @@ packages:
       houdini: 0.0.0-20231019174534
     dev: true
 
-  /houdini-react@0.0.0-20231019174534:
-    resolution: {integrity: sha512-wU5cgsLmS3wtDCs5PEX8r9hcWuschFhyOs34+h9lJuokgkvOz3gDEm/e7SIfZbnHjb3uzzF/DI7eeN+ek8cHDg==}
+  /houdini-react@1.2.32:
+    resolution: {integrity: sha512-ngVkFrSoxUBpBTEtqfukBWmFpD/s747TDsRe1P2PsSnz2NR13O9U+viwEf/icP3MiN8zj07iQp0+NyvdBKTdvg==}
     dependencies:
       '@babel/parser': 7.23.0
       '@babel/types': 7.23.0
@@ -1654,7 +1666,7 @@ packages:
       express: 4.18.2
       graphql: 15.8.0
       graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 0.0.0-20231019174534
+      houdini: 1.2.32
       react: 18.3.0-canary-9617d39ec-20231018
       react-dom: 18.3.0-canary-9617d39ec-20231018(react@18.3.0-canary-9617d39ec-20231018)
       react-streaming-compat: 0.3.18(react-dom@18.3.0-canary-9617d39ec-20231018)(react@18.3.0-canary-9617d39ec-20231018)
@@ -1694,6 +1706,38 @@ packages:
       npx-import: 1.1.4
       recast: 0.23.4
       vite-plugin-watch-and-run: 1.1.3
+    dev: true
+
+  /houdini@1.2.32:
+    resolution: {integrity: sha512-5gs5jxYcjJfm1ao5Wegi1zPXWLSr8rs6z5CYwuDcEij5U/NvGaP+2gfRhm4GabItPgYvMz4ElvLKGE7NXQdFcw==}
+    hasBin: true
+    dependencies:
+      '@babel/parser': 7.23.0
+      '@clack/prompts': 0.6.3
+      '@graphql-tools/merge': 9.0.0(graphql@15.8.0)
+      '@graphql-tools/schema': 9.0.19(graphql@15.8.0)
+      '@kitql/helpers': 0.8.2
+      '@types/estree': 1.0.2
+      '@types/fs-extra': 9.0.13
+      '@types/micromatch': 4.0.3
+      '@ungap/structured-clone': 1.2.0
+      '@whatwg-node/server': 0.9.14
+      ast-types: 0.16.1
+      commander: 9.5.0
+      deepmerge: 4.3.1
+      estree-walker: 3.0.3
+      fs-extra: 10.1.0
+      glob: 8.1.0
+      graphql: 15.8.0
+      graphql-yoga: 4.0.5(graphql@15.8.0)
+      memfs: 3.5.3
+      micromatch: 4.0.5
+      minimatch: 5.1.6
+      node-fetch: 3.3.2
+      npx-import: 1.1.4
+      recast: 0.23.4
+      vite-plugin-watch-and-run: 1.4.0
+    dev: false
 
   /http-errors@2.0.0:
     resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}
@@ -2175,6 +2219,7 @@ packages:
   /safe-stable-stringify@2.4.3:
     resolution: {integrity: sha512-e2bDA2WJT0wxseVd4lsDP4+3ONX6HpMXQa1ZhFQ7SU+GjvORCmShbCMltrtIDfkYhVHrOcPtj+KhmDBdPdZD1g==}
     engines: {node: '>=10'}
+    dev: true
 
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
@@ -2443,6 +2488,14 @@ packages:
     dependencies:
       '@kitql/helper': 0.6.1
       micromatch: 4.0.5
+    dev: true
+
+  /vite-plugin-watch-and-run@1.4.0:
+    resolution: {integrity: sha512-hEur3SRasjq7N2op7QfTz9wxPLDio/0I4LIR+wJXaGe6Vx385AWRdPhMm7CWP8GZMN0Ue2mud9Qv5J7OKRuRqA==}
+    dependencies:
+      '@kitql/helpers': 0.8.2
+      micromatch: 4.0.5
+    dev: false
 
   /vite@4.4.11:
     resolution: {integrity: sha512-ksNZJlkcU9b0lBwAGZGGaZHCMqHsc8OpgtoYhsQ4/I2v5cnpmmmqe5pM4nv/4Hn6G/2GhTdj0DhZh2e+Er1q5A==}
