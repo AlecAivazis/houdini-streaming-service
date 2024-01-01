@@ -26,19 +26,19 @@ export default function ({ Session, HomeScreen, children }: LayoutProps) {
       <aside
         className="billboard text-white absolute top-0 z-0"
         style={{
-          backgroundImage: `url(${HomeScreen?.suggestion.billboard.source})`,
+          backgroundImage: `url(${HomeScreen.suggestion.billboard.source})`,
         }}
       >
         <div className="absolute bottom-28 z-20 text-white pl-12 pb-10">
-          <h1 className="text-2xl mb-4 text">{HomeScreen?.suggestion.name}</h1>
+          <h1 className="text-2xl mb-4 text">{HomeScreen.suggestion.name}</h1>
           <h2 className="text-l max-w-lg text mb-4">
-            {HomeScreen?.suggestion.description}
+            {HomeScreen.suggestion.description}
           </h2>
           <div className="flex flex-row gap-4">
             <button className="rounded-lg billboard-button w-20 bg-white text-lg text-black">
               Play
             </button>
-            <a href={`/shows/${HomeScreen?.suggestion.id}`}>
+            <a href={`/shows/${HomeScreen.suggestion.id}`}>
               <button
                 className="rounded-lg billboard-button bg-button-transparent text-lg text-white "
                 style={{ width: 125 }}

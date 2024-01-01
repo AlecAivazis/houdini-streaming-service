@@ -1,10 +1,10 @@
 query ShowList @loading {
   genres(delay: 2000) {
-    edges @loading(count: 10) {
+    edges {
       node {
         name
         shows {
-          edges @loading(count: 5) {
+          edges {
             node {
               id
               name
