@@ -40,8 +40,8 @@ dependencies:
     specifier: ^3.9.1
     version: 3.9.1(graphql@15.8.0)
   houdini:
-    specifier: 0.0.0-20240209074641
-    version: 0.0.0-20240209074641
+    specifier: 0.0.0-20240209080702
+    version: 0.0.0-20240209080702
   houdini-adapter-auto:
     specifier: ^1.2.32
     version: 1.2.32
@@ -49,8 +49,8 @@ dependencies:
     specifier: latest
     version: 1.2.32
   houdini-react:
-    specifier: 0.0.0-20240209074641
-    version: 0.0.0-20240209074641
+    specifier: 0.0.0-20240209080702
+    version: 0.0.0-20240209080702
   react:
     specifier: 18.3.0-canary-9617d39ec-20231018
     version: 18.3.0-canary-9617d39ec-20231018
@@ -1644,11 +1644,11 @@ packages:
   /houdini-adapter-node@0.0.0-20231014043931:
     resolution: {integrity: sha512-/1gG5A3eBHGj7SogmROsagwkdeb++HBXaiDdeYV1wde6qyGGXlBZrtZoNPQ8uZK7LYq6HoGOfBy6JXj/A2bP/Q==}
     dependencies:
-      houdini: 0.0.0-20240209074641
+      houdini: 0.0.0-20240209080702
     dev: true
 
-  /houdini-react@0.0.0-20240209074641:
-    resolution: {integrity: sha512-etYhtFnBPZNefbhZRVMGIxTJ1GIRUxB49MEM0YOtI3rMgwW1YckwTE+yxeltTgo0dSZz8IP0IZyBW++V/973AQ==}
+  /houdini-react@0.0.0-20240209080702:
+    resolution: {integrity: sha512-ot837n8HDl3VqdBAQNECS0rdwhEb3aZoy8ukZQz6Vk/Xlep99ofm0lYQkg+jfrpkJmAvBhfcAxmyuT2nBcW7og==}
     dependencies:
       '@babel/parser': 7.23.9
       '@babel/types': 7.23.0
@@ -1660,7 +1660,7 @@ packages:
       express: 4.18.2
       graphql: 15.8.0
       graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 0.0.0-20240209074641
+      houdini: 0.0.0-20240209080702
       react: 18.3.0-canary-9617d39ec-20231018
       react-dom: 18.3.0-canary-9617d39ec-20231018(react@18.3.0-canary-9617d39ec-20231018)
       react-streaming-compat: 0.3.18(react-dom@18.3.0-canary-9617d39ec-20231018)(react@18.3.0-canary-9617d39ec-20231018)
@@ -1671,8 +1671,8 @@ packages:
       - supports-color
     dev: false
 
-  /houdini@0.0.0-20240209074641:
-    resolution: {integrity: sha512-uSl9d007p7aYb8DWld7mVBUo5ZJau1I8Gipg28Adm6E2gw4kphoQgXznDaqaxr6BWleaHX4llpP6QPrF9E962g==}
+  /houdini@0.0.0-20240209080702:
+    resolution: {integrity: sha512-06zNmxXG29yfz5B1K0comJL1cyICBD7VHeU+BYfnLUoHVE0ALH2Xi+uE0tJ9G3+cLtN/No1a1wDhzN6uzleDrg==}
     hasBin: true
     dependencies:
       '@babel/parser': 7.23.9
