@@ -40,17 +40,17 @@ dependencies:
     specifier: ^3.9.1
     version: 3.9.1(graphql@15.8.0)
   houdini:
-    specifier: latest
-    version: 1.2.32
+    specifier: 0.0.0-20231105055722
+    version: 0.0.0-20231105055722
   houdini-adapter-auto:
-    specifier: latest
+    specifier: ^1.2.32
     version: 1.2.32
   houdini-adapter-cloudflare:
     specifier: latest
     version: 1.2.32
   houdini-react:
-    specifier: latest
-    version: 1.2.32
+    specifier: 0.0.0-20231105055722
+    version: 0.0.0-20231105055722
   react:
     specifier: 18.3.0-canary-9617d39ec-20231018
     version: 18.3.0-canary-9617d39ec-20231018
@@ -733,23 +733,10 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@kitql/helper@0.5.0:
-    resolution: {integrity: sha512-qTDsv8qmbvSyZLb75hE9N4AnmZHtCi8JxgHYAj4dbgViEjs6HVYJKqHabGR7rZCAVQj7LwWu+cTfh52QhlNMcg==}
-    deprecated: It was renamed to @kitql/helpers, should be better!
-    dev: true
-
-  /@kitql/helper@0.6.1:
-    resolution: {integrity: sha512-jHl1YHItwOI8Z0h4kvx5LaJjcjY4zbmgSZVajWaGanCmbBKYphVP3UoNHDhs5944Ar7fJ/L7MNSdIINBhurIOA==}
-    deprecated: It was renamed to @kitql/helpers, should be better!
-    dependencies:
-      safe-stable-stringify: 2.4.3
-    dev: true
-
   /@kitql/helpers@0.8.2:
     resolution: {integrity: sha512-+fny1XOuOWOEp8K3GqQqCSOCki+Kr5gMnl7Majzjs1iFlyvIvwYRv8x3sqNyP77yrUTQbiY5q/BTNav1Yl4LKg==}
     dependencies:
       esm-env: 1.0.0
-    dev: false
 
   /@peculiar/asn1-schema@2.3.6:
     resolution: {integrity: sha512-izNRxPoaeJeg/AyH8hER6s+H7p4itk+03QCa4sbxI3lNdseQYCuxzgsuNK8bTXChtLTjpJz6NmXKA73qLa3rCA==}
@@ -1338,7 +1325,6 @@ packages:
 
   /esm-env@1.0.0:
     resolution: {integrity: sha512-Cf6VksWPsTuW01vU9Mk/3vRue91Zevka5SjyNf3nEpokFRuqt/KjUQoGAwq9qMmhpLTHmXzSIrFRw8zxWzmFBA==}
-    dev: false
 
   /esprima@4.0.1:
     resolution: {integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==}
@@ -1650,11 +1636,11 @@ packages:
   /houdini-adapter-node@0.0.0-20231014043931:
     resolution: {integrity: sha512-/1gG5A3eBHGj7SogmROsagwkdeb++HBXaiDdeYV1wde6qyGGXlBZrtZoNPQ8uZK7LYq6HoGOfBy6JXj/A2bP/Q==}
     dependencies:
-      houdini: 0.0.0-20231019174534
+      houdini: 0.0.0-20231105055722
     dev: true
 
-  /houdini-react@1.2.32:
-    resolution: {integrity: sha512-ngVkFrSoxUBpBTEtqfukBWmFpD/s747TDsRe1P2PsSnz2NR13O9U+viwEf/icP3MiN8zj07iQp0+NyvdBKTdvg==}
+  /houdini-react@0.0.0-20231105055722:
+    resolution: {integrity: sha512-PEvab1MtHKzqMvragrD9c+jQOWLVa75bV7iLIPo1YiUPk3zCkfIUj/kdDb6hj2ipI4ubEyRz8eepIolOBHupXw==}
     dependencies:
       '@babel/parser': 7.23.0
       '@babel/types': 7.23.0
@@ -1666,7 +1652,7 @@ packages:
       express: 4.18.2
       graphql: 15.8.0
       graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 1.2.32
+      houdini: 0.0.0-20231105055722
       react: 18.3.0-canary-9617d39ec-20231018
       react-dom: 18.3.0-canary-9617d39ec-20231018(react@18.3.0-canary-9617d39ec-20231018)
       react-streaming-compat: 0.3.18(react-dom@18.3.0-canary-9617d39ec-20231018)(react@18.3.0-canary-9617d39ec-20231018)
@@ -1677,15 +1663,15 @@ packages:
       - supports-color
     dev: false
 
-  /houdini@0.0.0-20231019174534:
-    resolution: {integrity: sha512-G/oucOXzH8LCnPajTa/cK2kPU/WXgfbnNhPQOI6gt4v2RqvQJUjQdII9CYEc8v53h8oMHJdtWPMtZs6YxC5SdA==}
+  /houdini@0.0.0-20231105055722:
+    resolution: {integrity: sha512-PCU1FbPHl2JMDLdPo9Whx6XJt0GmYuHGBWN5Jc/Zf+m2zQqPuvmqTOpAIKVke3xSzvFumuQ316AJrbVOTqDEjQ==}
     hasBin: true
     dependencies:
       '@babel/parser': 7.23.0
       '@clack/prompts': 0.6.3
       '@graphql-tools/merge': 9.0.0(graphql@15.8.0)
       '@graphql-tools/schema': 9.0.19(graphql@15.8.0)
-      '@kitql/helper': 0.5.0
+      '@kitql/helpers': 0.8.2
       '@types/estree': 1.0.2
       '@types/fs-extra': 9.0.13
       '@types/micromatch': 4.0.3
@@ -1705,8 +1691,7 @@ packages:
       node-fetch: 3.3.2
       npx-import: 1.1.4
       recast: 0.23.4
-      vite-plugin-watch-and-run: 1.1.3
-    dev: true
+      vite-plugin-watch-and-run: 1.4.0
 
   /houdini@1.2.32:
     resolution: {integrity: sha512-5gs5jxYcjJfm1ao5Wegi1zPXWLSr8rs6z5CYwuDcEij5U/NvGaP+2gfRhm4GabItPgYvMz4ElvLKGE7NXQdFcw==}
@@ -2216,11 +2201,6 @@ packages:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: false
 
-  /safe-stable-stringify@2.4.3:
-    resolution: {integrity: sha512-e2bDA2WJT0wxseVd4lsDP4+3ONX6HpMXQa1ZhFQ7SU+GjvORCmShbCMltrtIDfkYhVHrOcPtj+KhmDBdPdZD1g==}
-    engines: {node: '>=10'}
-    dev: true
-
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: false
@@ -2483,19 +2463,11 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /vite-plugin-watch-and-run@1.1.3:
-    resolution: {integrity: sha512-wxC2ptj17GmOEvSKp786AeYJvUoqaKqcRLRA+PdlU1RkVdpY+A6gx+As5s9d0KgZXYn0ZVM4qZabeWpVAwqK4A==}
-    dependencies:
-      '@kitql/helper': 0.6.1
-      micromatch: 4.0.5
-    dev: true
-
   /vite-plugin-watch-and-run@1.4.0:
     resolution: {integrity: sha512-hEur3SRasjq7N2op7QfTz9wxPLDio/0I4LIR+wJXaGe6Vx385AWRdPhMm7CWP8GZMN0Ue2mud9Qv5J7OKRuRqA==}
     dependencies:
       '@kitql/helpers': 0.8.2
       micromatch: 4.0.5
-    dev: false
 
   /vite@4.4.11:
     resolution: {integrity: sha512-ksNZJlkcU9b0lBwAGZGGaZHCMqHsc8OpgtoYhsQ4/I2v5cnpmmmqe5pM4nv/4Hn6G/2GhTdj0DhZh2e+Er1q5A==}
