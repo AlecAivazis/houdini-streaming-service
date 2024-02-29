@@ -142,13 +142,11 @@ export default createSchema({
   typeDefs,
   resolvers: {
     Show: {
-      id: (show) => Buffer.from(`Show:${show.id}`).toString("base64"),
+      id: (show) => btoa(`Show:${show.id}`),
     },
     Query: {
       show(_, { id }) {
-        return shows[
-          parseInt(Buffer.from(id, "base64").toString().split(":")[1])
-        ];
+        return shows[parseInt(atob(id).split(":")[1])];
       },
       async shows(_, args) {
         if (args.delay) {
