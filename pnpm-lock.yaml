@@ -40,8 +40,8 @@ dependencies:
     specifier: ^3.9.1
     version: 3.9.1(graphql@15.8.0)
   houdini:
-    specifier: 0.0.0-20240229064343
-    version: 0.0.0-20240229064343
+    specifier: 1.2.40
+    version: 1.2.40
   houdini-adapter-auto:
     specifier: 1.2.40
     version: 1.2.40
@@ -1638,7 +1638,7 @@ packages:
   /houdini-adapter-cloudflare@1.2.32:
     resolution: {integrity: sha512-3QgoIzM7bIOOsj5xCaVYJe52Xr6jkwsqf8CIzJzNByj8dt45U8wiq+DnAAL686teZv24Q6g5HjtwGwrVwFTMPg==}
     dependencies:
-      houdini: 1.2.39
+      houdini: 1.2.40
     dev: false
 
   /houdini-adapter-node@0.0.0-20231014043931:
@@ -1700,37 +1700,7 @@ packages:
       npx-import: 1.1.4
       recast: 0.23.4
       vite-plugin-watch-and-run: 1.4.0
-
-  /houdini@1.2.39:
-    resolution: {integrity: sha512-4bB//00f1+H8RbHfK/HbwPaVO5RVg0DcNpkQBC046YfOX3PkHYwX4awjgAtG/hHdnMznT1yJShhA06bx6Iqo9Q==}
-    hasBin: true
-    dependencies:
-      '@babel/parser': 7.23.9
-      '@clack/prompts': 0.6.3
-      '@graphql-tools/merge': 9.0.0(graphql@15.8.0)
-      '@graphql-tools/schema': 9.0.19(graphql@15.8.0)
-      '@kitql/helpers': 0.8.2
-      '@types/estree': 1.0.2
-      '@types/fs-extra': 9.0.13
-      '@types/micromatch': 4.0.3
-      '@ungap/structured-clone': 1.2.0
-      '@whatwg-node/server': 0.9.14
-      ast-types: 0.16.1
-      commander: 9.5.0
-      deepmerge: 4.3.1
-      estree-walker: 3.0.3
-      fs-extra: 10.1.0
-      glob: 8.1.0
-      graphql: 15.8.0
-      graphql-yoga: 4.0.5(graphql@15.8.0)
-      memfs: 3.5.3
-      micromatch: 4.0.5
-      minimatch: 5.1.6
-      node-fetch: 3.3.2
-      npx-import: 1.1.4
-      recast: 0.23.4
-      vite-plugin-watch-and-run: 1.4.0
-    dev: false
+    dev: true
 
   /houdini@1.2.40:
     resolution: {integrity: sha512-QzKRWvQqwDYUFucr9kv9COIcidTPnaMxp30TcqfOHSvg8qPDXxqgJ3JBL6HzW4g+N+TawvCU5ZuqZv8qv5view==}

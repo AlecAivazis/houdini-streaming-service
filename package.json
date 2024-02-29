@@ -21,7 +21,7 @@
 		"fs-extra": "^11.1.1",
 		"graphql": "15.8.0",
 		"graphql-yoga": "^3.9.1",
-		"houdini": "0.0.0-20240229064343",
+		"houdini": "1.2.40",
 		"houdini-adapter-auto": "1.2.40",
 		"houdini-adapter-cloudflare": "latest",
 		"houdini-react": "1.2.40",
