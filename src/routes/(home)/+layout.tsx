@@ -1,6 +1,7 @@
 import { LayoutProps } from "./$types";
 
 export default function ({ Session, HomeScreen, children }: LayoutProps) {
+  console.log({ Session, HomeScreen });
   return (
     <main className="flex-col relative">
       <nav
