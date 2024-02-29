@@ -43,14 +43,14 @@ dependencies:
     specifier: 0.0.0-20240229064343
     version: 0.0.0-20240229064343
   houdini-adapter-auto:
-    specifier: ^1.2.32
-    version: 1.2.32
+    specifier: 1.2.40
+    version: 1.2.40
   houdini-adapter-cloudflare:
     specifier: latest
     version: 1.2.32
   houdini-react:
-    specifier: 0.0.0-20240229064343
-    version: 0.0.0-20240229064343
+    specifier: 1.2.40
+    version: 1.2.40
   react:
     specifier: 18.3.0-canary-9617d39ec-20231018
     version: 18.3.0-canary-9617d39ec-20231018
@@ -1628,10 +1628,10 @@ packages:
     resolution: {integrity: sha512-KHzmSFx1KwyMPw0kXeeUD752q/Kfbzhy6dAZrjXV9kAIXGqzGvv8vhkUqj+2MGZldTo0IBpw6v7iWE7uxsvH0w==}
     dev: false
 
-  /houdini-adapter-auto@1.2.32:
-    resolution: {integrity: sha512-2eet0BRM8Bz4qfXdPUKbn0iQ20LVEf/RTOwiPR2N2VTcZ5zofdwzem8KZbyX7ZC7X3moC6geRWWQL1fr8+aaNw==}
+  /houdini-adapter-auto@1.2.40:
+    resolution: {integrity: sha512-EGmZ9ARHpughPf3XxkHy/7ZGYs79lPdZn6iv9/2AAK2VhzfUe/x7yw/Aso7l0c2NYXbtdaEHX37g4ppkRKZesw==}
     dependencies:
-      houdini: 1.2.39
+      houdini: 1.2.40
       import-meta-resolve: 3.0.0
     dev: false
 
@@ -1647,8 +1647,8 @@ packages:
       houdini: 0.0.0-20240229064343
     dev: true
 
-  /houdini-react@0.0.0-20240229064343:
-    resolution: {integrity: sha512-NoOk2CO7lIMRmgvWpsQK6eTDEInf88XsnGWDU8OT4/1CPWFl+NukJuOl0NDW49CM3uzVwLHwyU5TWoNWm9DwpA==}
+  /houdini-react@1.2.40:
+    resolution: {integrity: sha512-p3lHtWZ0V7PuL+Zj8HOARnQ0Cdob/EaAXtdvu7demuYphqEUGzZD8aUjBePy4aQFPgxe9YgsD3/oVZIk/sVZvw==}
     dependencies:
       '@babel/parser': 7.23.9
       '@babel/types': 7.23.0
@@ -1660,7 +1660,7 @@ packages:
       express: 4.18.2
       graphql: 15.8.0
       graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 0.0.0-20240229064343
+      houdini: 1.2.40
       react: 18.3.0-canary-9617d39ec-20231018
       react-dom: 18.3.0-canary-9617d39ec-20231018(react@18.3.0-canary-9617d39ec-20231018)
       react-streaming-compat: 0.3.18(react-dom@18.3.0-canary-9617d39ec-20231018)(react@18.3.0-canary-9617d39ec-20231018)
@@ -1703,6 +1703,37 @@ packages:
 
   /houdini@1.2.39:
     resolution: {integrity: sha512-4bB//00f1+H8RbHfK/HbwPaVO5RVg0DcNpkQBC046YfOX3PkHYwX4awjgAtG/hHdnMznT1yJShhA06bx6Iqo9Q==}
+    hasBin: true
+    dependencies:
+      '@babel/parser': 7.23.9
+      '@clack/prompts': 0.6.3
+      '@graphql-tools/merge': 9.0.0(graphql@15.8.0)
+      '@graphql-tools/schema': 9.0.19(graphql@15.8.0)
+      '@kitql/helpers': 0.8.2
+      '@types/estree': 1.0.2
+      '@types/fs-extra': 9.0.13
+      '@types/micromatch': 4.0.3
+      '@ungap/structured-clone': 1.2.0
+      '@whatwg-node/server': 0.9.14
+      ast-types: 0.16.1
+      commander: 9.5.0
+      deepmerge: 4.3.1
+      estree-walker: 3.0.3
+      fs-extra: 10.1.0
+      glob: 8.1.0
+      graphql: 15.8.0
+      graphql-yoga: 4.0.5(graphql@15.8.0)
+      memfs: 3.5.3
+      micromatch: 4.0.5
+      minimatch: 5.1.6
+      node-fetch: 3.3.2
+      npx-import: 1.1.4
+      recast: 0.23.4
+      vite-plugin-watch-and-run: 1.4.0
+    dev: false
+
+  /houdini@1.2.40:
+    resolution: {integrity: sha512-QzKRWvQqwDYUFucr9kv9COIcidTPnaMxp30TcqfOHSvg8qPDXxqgJ3JBL6HzW4g+N+TawvCU5ZuqZv8qv5view==}
     hasBin: true
     dependencies:
       '@babel/parser': 7.23.9
