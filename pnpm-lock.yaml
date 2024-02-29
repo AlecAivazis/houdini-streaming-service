@@ -40,8 +40,8 @@ dependencies:
     specifier: ^3.9.1
     version: 3.9.1(graphql@15.8.0)
   houdini:
-    specifier: 0.0.0-20240210071910
-    version: 0.0.0-20240210071910
+    specifier: ^1.2.32
+    version: 1.2.32
   houdini-adapter-auto:
     specifier: ^1.2.32
     version: 1.2.32
@@ -49,8 +49,8 @@ dependencies:
     specifier: latest
     version: 1.2.32
   houdini-react:
-    specifier: 0.0.0-20240210071910
-    version: 0.0.0-20240210071910
+    specifier: ^1.2.32
+    version: 1.2.39
   react:
     specifier: 18.3.0-canary-9617d39ec-20231018
     version: 18.3.0-canary-9617d39ec-20231018
@@ -1647,8 +1647,8 @@ packages:
       houdini: 0.0.0-20240210071910
     dev: true
 
-  /houdini-react@0.0.0-20240210071910:
-    resolution: {integrity: sha512-y4NoeCYW1/jtUfHRtCqbBJwvneXlcVM5nssfHhmneoXMDW0XQSgXI2HRX6O+4Z/Gs/VZnRwbAj8/3sLIIFeuFg==}
+  /houdini-react@1.2.39:
+    resolution: {integrity: sha512-vrAu7IKTBYKEaQrQuTMuA05iY0fPrCPB/uZS2o2n0em5SlH6DqzcQ44nZnBCMIfYnRm+ZmDjdTIxDk+Q5A66zA==}
     dependencies:
       '@babel/parser': 7.23.9
       '@babel/types': 7.23.0
@@ -1660,7 +1660,7 @@ packages:
       express: 4.18.2
       graphql: 15.8.0
       graphql-yoga: 4.0.5(graphql@15.8.0)
-      houdini: 0.0.0-20240210071910
+      houdini: 1.2.39
       react: 18.3.0-canary-9617d39ec-20231018
       react-dom: 18.3.0-canary-9617d39ec-20231018(react@18.3.0-canary-9617d39ec-20231018)
       react-streaming-compat: 0.3.18(react-dom@18.3.0-canary-9617d39ec-20231018)(react@18.3.0-canary-9617d39ec-20231018)
@@ -1700,12 +1700,44 @@ packages:
       npx-import: 1.1.4
       recast: 0.23.4
       vite-plugin-watch-and-run: 1.4.0
+    dev: true
 
   /houdini@1.2.32:
     resolution: {integrity: sha512-5gs5jxYcjJfm1ao5Wegi1zPXWLSr8rs6z5CYwuDcEij5U/NvGaP+2gfRhm4GabItPgYvMz4ElvLKGE7NXQdFcw==}
     hasBin: true
     dependencies:
-      '@babel/parser': 7.23.0
+      '@babel/parser': 7.23.9
+      '@clack/prompts': 0.6.3
+      '@graphql-tools/merge': 9.0.0(graphql@15.8.0)
+      '@graphql-tools/schema': 9.0.19(graphql@15.8.0)
+      '@kitql/helpers': 0.8.2
+      '@types/estree': 1.0.2
+      '@types/fs-extra': 9.0.13
+      '@types/micromatch': 4.0.3
+      '@ungap/structured-clone': 1.2.0
+      '@whatwg-node/server': 0.9.14
+      ast-types: 0.16.1
+      commander: 9.5.0
+      deepmerge: 4.3.1
+      estree-walker: 3.0.3
+      fs-extra: 10.1.0
+      glob: 8.1.0
+      graphql: 15.8.0
+      graphql-yoga: 4.0.5(graphql@15.8.0)
+      memfs: 3.5.3
+      micromatch: 4.0.5
+      minimatch: 5.1.6
+      node-fetch: 3.3.2
+      npx-import: 1.1.4
+      recast: 0.23.4
+      vite-plugin-watch-and-run: 1.4.0
+    dev: false
+
+  /houdini@1.2.39:
+    resolution: {integrity: sha512-4bB//00f1+H8RbHfK/HbwPaVO5RVg0DcNpkQBC046YfOX3PkHYwX4awjgAtG/hHdnMznT1yJShhA06bx6Iqo9Q==}
+    hasBin: true
+    dependencies:
+      '@babel/parser': 7.23.9
       '@clack/prompts': 0.6.3
       '@graphql-tools/merge': 9.0.0(graphql@15.8.0)
       '@graphql-tools/schema': 9.0.19(graphql@15.8.0)
